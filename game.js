@@ -1,4 +1,11 @@
 var game = {
+    init: function() {
+
+    },
+    addPlayer: function(name)
+    {
+
+    },
     deal: function() { 
         // deal the deck
     },
@@ -7,5 +14,8 @@ var game = {
     },
     player: [],
     cards: [],
-           
+    gameModes: ["initializing", "shufling", "dealing", "player_turn", "player_action"],
+    mode: null,
+
+
 };
