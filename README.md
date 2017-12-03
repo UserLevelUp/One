@@ -71,4 +71,5 @@ C:\src\one>
 ```
 
 
-
+>> This readme was edited primarily in <a href="https://code.visualstudio.com/">VS Code</a>.
+>>> Markdown help is located at this link: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes">Markdown cheatsheet</a>.
