@@ -1,0 +1,25 @@
+{
+  "name": "one",
+  "version": "0.0.0",
+  "description": "One Uno Game",
+  "main": "game.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UserLevelUp/One.git"
+  },
+  "keywords": [
+    "uno",
+    "game",
+    "js",
+    "node"
+  ],
+  "author": "UserLevelUp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UserLevelUp/One/issues"
+  },
+  "homepage": "https://github.com/UserLevelUp/One#readme"
+}
