@@ -99,6 +99,7 @@ http://localhost:3000
 
 Why does this work? Simple: Node is a command like prompt that is installed with npm.  Node uses Google's javascript engine to perform pretty much any command that a regular program can perform including web sockets, file manipulation and many other server or desktop specific tasks.  It also performs all of the javascript language specifics that a browser can perform with the exception that it is not in a browser so there is no DOM inherent in Node.  If this is incomplete research more about NPM and Node in a search engine.
 
+### If you got this far you should notice that app.js is not included in index.html.  That is because this file only runs in node and starts the server and serves up the index.html and game.js file.  However it is very basic and straight forward right now.  Eventually it will need to be abstracted out a little so we can add many more files in a simpler and more logical way.  Well... maybe not simpler.
 
 >> This readme was edited primarily in <a href="https://code.visualstudio.com/">VS Code</a>.
 >>> Markdown help is located at this link: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes">Markdown cheatsheet</a>.
