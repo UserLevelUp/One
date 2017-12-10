@@ -39,14 +39,14 @@ var game = {
     deal: function() { 
         // deal the deck
     },
-    player: [], // placeholder to initialize new players who want to join game
+    players: [], // placeholder to initialize new players who want to join game
     colors: ['red', 'yellow', 'green', 'blue'],
-    speicalCardsWithZero: [     {'type': 'skip', 'points': 20}, 
+    specialCardsWithZero: [     {'type': 'skip', 'points': 20}, 
                                 {'type': 'reverse', 'points': 20},
                                 {'type': 'plus2', 'points': 20},
                                 {'type': 'wild', 'points': 50}
                              ],
-    speicalCardsWithoutZero: [  {'type': 'skip', 'points': 20}, 
+    specialCardsWithoutZero: [  {'type': 'skip', 'points': 20}, 
                                 {'type': 'reverse', 'points': 20},
                                 {'type': 'plus2', 'points': 20},
                                 {'type': 'draw4', 'points': 50}
